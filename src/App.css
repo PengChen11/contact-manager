@@ -16,8 +16,8 @@ ul {
   list-style-type: none;
   background-color: lightskyblue;
   text-align: left;
-  font-family: fantasy;
-  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 28px;
   font-weight: bolder;
   width: 330px;
   height: 114x;
@@ -41,6 +41,9 @@ form {
 input {
   width: 137px;
   margin: 0;
+  border-width: 2px;
+  border-style: solid;
+  border-color: lightgray;
 }
 
 button {

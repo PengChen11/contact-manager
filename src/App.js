@@ -106,7 +106,7 @@ class ContactForm extends React.Component{
           </input>
         </label>
         <label>
-          <input type="number" placeholder='Add phone number' value={this.state.Phone_Number} onChange={this.handleNumChange} ></input>
+          <input type="text" placeholder='Add phone number' value={this.state.Phone_Number} onChange={this.handleNumChange} ></input>
         </label>
         <button type="submit">Add</button>
       </form>
